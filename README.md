@@ -1,6 +1,8 @@
 # Bitstamp API Client
 
+[![Python package](https://github.com/designst/bitstamp-api-client/actions/workflows/python-package.yml/badge.svg)](https://github.com/designst/bitstamp-api-client/actions/workflows/python-package.yml)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-python-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
