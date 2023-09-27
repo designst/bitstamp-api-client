@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bitstamp-api-client"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bitstamp API Client"
 authors = ["designst <info@designstage.ch>"]
 license = "MIT"
