@@ -91,5 +91,3 @@ jobs:
       - name: Publish to PyPI
         if: steps.semantic_release.outputs.released == 'true'
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          repository-url: https://test.pypi.org/legacy/
