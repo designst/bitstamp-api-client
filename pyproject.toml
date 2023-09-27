@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "bitstamp-api-client"
+version = "0.0.0"
+description = "Bitstamp API Client"
+authors = ["designst <info@designstage.ch>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "bitstamp_api" }]
+
+[tool.poetry.dependencies]
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pydantic = "^2.4.1"
+pytest = "^7.4.2"
+python = "^3.9"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+commitizen = "^3.10.0"
+pre-commit = "^3.4.0"
+python-semantic-release = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+build_command = "poetry build"
+commit_author = "designst-bot <bot@designstage.ch>"
+commit_message = "chore(release): bump version {version}"
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
